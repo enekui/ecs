@@ -42,6 +42,7 @@ module "ecs" {
   tags = var.tags
 }
 
+# ECS Service Module
 module "ecs_task_definition" {
   source = "terraform-aws-modules/ecs/aws//modules/service"
 
